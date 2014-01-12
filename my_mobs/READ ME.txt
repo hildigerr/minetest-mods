@@ -1,15 +1,10 @@
 FILE: hildigerr/my_mobs/Read Me.txt
 
-[wulfsdad  -- December 2012 -- WTFPL -- Version 0.1]
+[wulfsdad  -- December 2012 -- WTFPL -- Version 0.2]
 
 This MOD provides additional mobs to extend upon PilzAdam's Simple Mobs.
 <http://minetest.net/forum/viewtopic.php?id=3063>.
 It is required for this MOD to work.
-
-You will need to rename one of the init-*.lua files to init.lua.
-The "full" version is for people who use VanessaE's Home Decor Mod,
-and "basic" is for those who don't.
-Likewise with the default-*.txt files.
 
 It Includes:
 		Animals:
@@ -18,8 +13,8 @@ It Includes:
 		Overcooking and using the result to make dye
 		Meat spoilage if it remains uncooked
 
-Raw meet can be preserved through "cheating" or using a refridgerator provided by VanessaE's Home Decor Mod
-<http://minetest.net/forum/viewtopic.php?id=2041>. 
+Raw meet can be preserved through "cheating" or using a refridgerator provided
+ by VanessaE's Home Decor Mod <http://minetest.net/forum/viewtopic.php?id=2041>. 
 
 KNOWN BUGS:
 	If you drink milk from a stack of vessels, you will not recieve the empty vessel.
@@ -43,19 +38,25 @@ It's README.txt reports:
 	Commercial usage: Allowed
 	Readme file: textures/terms-of-use.txt -->[ I include it, but renamed to rabbit_terms-of-use.txt  ]
 
-The rest of the sounds were found at various locations that I don't recall.
-If you own one of them, I will remove it and delete all copies of it at you're request.
+The rest of the sounds were found at various locations that I don't recall,
+unless otherwise acknowledged in changes.txt. If you own one of them, I will
+remove it and delete all copies of it, at you're request.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Aditional TODO:
---		refactor redundant code
---		add sound effect variety
---		cheese craft
+----Aditional TODO:
+--HIGH PRIORITY:
+--		cages for pet rodents
+--			feeding,breeding
 --		add more animals,
 --		add monsters,
---		prevent "cheating" by hiding raw meat in the furnace or oven,
---			this should also make it seam as though you sometimes burn the meat you're cooking
---		Rot partial stacks possibility
---		cages for pet rodents
---		make chances and timer durations easily configurable
+--MED PRIORITY:
+--		add fresh meat and remove rotten meat litter periodically
+--		cheese  [additional mod: proidge, seaweed stew]
+--		fork mobs
+--			add AI tweaks and knockback
+--			for animals:breeding & extinction possibility
+--		cows lift head in water and sometimes when walking
+--		cows eat grass
+--LOW PRIORITY:
+--		add sound effect variety
