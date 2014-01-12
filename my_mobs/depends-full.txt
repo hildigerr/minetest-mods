@@ -1,0 +1,6 @@
+default
+bucket
+vessels
+dye
+mobs
+homedecor
