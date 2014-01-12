@@ -1,5 +1,4 @@
 default
 bucket
 vessels
-dye
 mobs
