@@ -75,17 +75,29 @@ minetest.register_craftitem("fishing:pole_baited", {
 
 
 --Crafts:
-minetest.register_craft({
-	type = "shapeless",
-	output = "fishing:pole",
-	recipe = {"default:stick","default:stick","ropes:rope"},
-})
+if minetest.get_modpath("ropes") ~= nil then
+	minetest.register_craft({
+		type = "shapeless",
+		output = "fishing:pole",
+		recipe = {"default:stick","default:stick","ropes:rope"},
+	})
+end
 
+if minetest.get_modpath("moreblocks") ~= nil then
 minetest.register_craft({
-	type = "shapeless",
-	output = "fishing:pole",
-	recipe = {"default:stick","default:stick","moreblocks:rope"},
-})
+		type = "shapeless",
+		output = "fishing:pole",
+		recipe = {"default:stick","default:stick","moreblocks:rope"},
+	})
+end
+
+if minetest.get_modpath("farming") ~= nil then
+	minetest.register_craft({
+		type = "shapeless",
+		output = "fishing:pole",
+		recipe = {"default:stick","default:stick","farming:string","farming:string"},
+	})
+end
 
 minetest.register_craft({
 	type = "cooking",
