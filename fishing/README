@@ -1,4 +1,5 @@
-Originally Posted at: https://forum.minetest.net/viewtopic.php?id=4375
+Originally Posted at: https://forum.minetest.net/viewtopic.php?id=4375        
+A newer mod, based on this one, is here: https://github.com/Mossmanikin/fishing
 
 Includes:
     a fish (can be cooked or eaten raw),
@@ -14,8 +15,6 @@ Depends:
             This also modifies moreblocks:rope to be used as ropes:rope -- which is really handy.
     To craft sushi: (or you can use "/giveme fishing:sushi")
         plantlife
-        
-A newer mod, based on this one, is here: https://github.com/Mossmanikin/fishing
 
 Code:WTFPL
 Textures:
