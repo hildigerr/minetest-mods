@@ -1,4 +1,7 @@
-FILE: hildigerr/my_mobs/Read Me.txt
+Originally Posted at https://forum.minetest.net/viewtopic.php?pid=57041
+
+
+FILE: my_mobs/Read Me.txt
 
 [wulfsdad  -- January 2013 -- WTFPL -- Version 0.4]
 
