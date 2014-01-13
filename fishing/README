@@ -1,0 +1,16 @@
+Includes:
+    a fish (can be cooked or eaten raw),
+    fishing poles,
+    worm (bait),
+    sushi
+To get worms for bait you must dig in dirt (without grass) by hand. There is a default 30% chance that you will find one. This can be configured in init.lua, as well as the chance of catching a fish. Or, you can use "/giveme fishing:bait_worm".
+To catch a fish, use a baited fishing pole on a water node.
+Depends:
+    To craft a fishing pole: (or you can use "/giveme fishing:pole")
+        ropes or moreblocks or farming
+            I suggest using my modified version of ropes. Get it here.
+            This also modifies moreblocks:rope to be used as ropes:rope -- which is really handy.
+    To craft sushi: (or you can use "/giveme fishing:sushi")
+        plantlife
+        
+A newer mod, based on this one, is here: https://github.com/Mossmanikin/fishing
