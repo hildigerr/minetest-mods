@@ -1,3 +1,5 @@
+Originally Posted at: https://forum.minetest.net/viewtopic.php?id=4375
+
 Includes:
     a fish (can be cooked or eaten raw),
     fishing poles,
@@ -14,3 +16,14 @@ Depends:
         plantlife
         
 A newer mod, based on this one, is here: https://github.com/Mossmanikin/fishing
+
+Code:WTFPL
+Textures:
+<http://www.planetminecraft.com/texture_pack/wolfhound/>
+
+TODO:
+    item wear,
+    automatic re-baiting option,
+    different types of fish/sushi,
+    sounds,
+    nets and traps
