@@ -1,7 +1,7 @@
-These mods were made for Minetest 0.4.4 which is not the latest version.
+This was at one time a collection of all my Minetest mods. I was using version 0.4.4 then.
 
 This repository is archivial. The mods have been exported into thier own repos:
 
-- https://github.com/hildigerr/fishing
-- https://github.com/hildigerr/minetest_overrides
-- my_mobs remains, but is likely to be butchered into various additional mods.
+- The original [fishing](https://github.com/hildigerr/fishing) mod!
+- Various [overriding preferences](https://github.com/hildigerr/minetest_overrides) of my own, as a mod.
+- my_mobs remains for archivial purposes, but has also been encorporated into [my fork of mobs](https://github.com/hildigerr/mobs).
